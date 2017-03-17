@@ -1,6 +1,12 @@
 {
   "page": {
-    "pageTitle": "Welcome to my dummy resume!",
-    "pageDescription": "This shall be THE best dummy resume"
+    "pageTitle": "Welcome to my resume!",
+    "pageDescription": "This page serves as resume and portfolio work"
+  }
+}
+{
+  "author": {
+    "name": "Daniel Varvara",
+    "title": "Web Developer"
   }
 }

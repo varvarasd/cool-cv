@@ -2,4 +2,5 @@ extends _layout/frame
 
 
 block content
-  h1 My resume says "hello" text.
+  -var resume = site.data.resume;
+  h1 #{resume.page.pageTitle}

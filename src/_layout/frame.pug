@@ -3,5 +3,8 @@ html
   head
     title #{site.data.resume.page.pageTitle}
     meta(name="description", content=site.data.resume.page.pageDescription)
+    if config.entry.css.external
+      link(rel="stylesheet", href="style.css")
   body
-    block content
+    .container
+      block content
