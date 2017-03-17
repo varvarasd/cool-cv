@@ -1,8 +1,25 @@
 $class: 'home';
 
+%uppercase {
+  text-transform: uppercase;
+}
+
 .#{$class} {
   @extend %section;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.#{$class}-wrapper {
+  text-align: center;
+}
+
+.#{$class}-name {
+  @extend uppercase;
+  font-size: 5rem;
+}
+
+.#{$class}-title {
+  @extend uppercase;
+  font-size: 2rem;
 }
