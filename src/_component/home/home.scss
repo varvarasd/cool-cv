@@ -1,0 +1,8 @@
+$class: 'home';
+
+.#{$class} {
+  @extend %section;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
