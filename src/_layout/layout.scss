@@ -3,7 +3,8 @@
 html {
   font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
 }
-
+// To set the height of a future element in percentage
+// like 100%, all parent elements must have a height defined.
 html, body {
   height: 100%;
 }

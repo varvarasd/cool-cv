@@ -11,7 +11,7 @@ $class: 'home';
   align-items: center;
   background-image: url(../asset/image/background-top1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .#{$class}-wrapper {
@@ -23,6 +23,7 @@ $class: 'home';
   @extend %uppercase;
   font-size: 2rem;
   font-family: 'Open Sans';
+  font-weight: bold;
 }
 
 .#{$class}-title {
