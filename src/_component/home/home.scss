@@ -9,6 +9,7 @@ $class: 'home';
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: radial-gradient(ellipse, $color-manatee, $color-fiord);
 }
 
 .#{$class}-wrapper {
@@ -42,6 +43,7 @@ $class: 'home';
   flex-wrap: wrap;
 // set the items that break on new line to be aligned center
   justify-content: center;
+
 }
 
 .#{$class}-title {
