@@ -5,6 +5,16 @@
   },
   "author": {
     "name": "Daniel Varvara",
-    "title": "Web Developer"
+    "title": "Web Developer",
+    "social": [
+      {
+        "icon": "google-plus2",
+        "url": "https://plus.google.com/u/0/114997183380922961871"
+      },
+      {
+        "icon": "facebook2",
+        "url": "https://www.facebook.com/Searath"
+      }
+    ]
   }
 }
