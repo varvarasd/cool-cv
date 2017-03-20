@@ -15,11 +15,11 @@ $class: 'home';
 }
 
 .#{$class}-name {
-  @extend uppercase;
+  @extend %uppercase;
   font-size: 5rem;
 }
 
 .#{$class}-title {
-  @extend uppercase;
+  @extend %uppercase;
   font-size: 2rem;
 }
