@@ -14,6 +14,22 @@
       {
         "icon": "facebook2",
         "url": "https://www.facebook.com/Searath"
+      },
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/SDVarvara"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/varvarasd"
+      },
+      {
+        "icon": "skype",
+        "url": "skype:varvarasd?call"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/daniel-varvara-b14752104/"
       }
     ]
   }

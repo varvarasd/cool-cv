@@ -30,6 +30,8 @@ $class: 'home';
 
 .#{$class}-social {
   display: inline-flex;
+  max-width: 80vw;
+  flex-wrap: wrap;
 }
 
 .#{$class}-title {
