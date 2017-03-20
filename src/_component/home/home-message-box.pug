@@ -5,7 +5,7 @@
     .home-message Click the above icons to reveal
     each social, key in resume.author.social
       input(type='radio', name='message-box', id='message-box-id-'+key)
-        .home-message
-          //- use target attribute with _blank value
-          //- to open the link in a new tab
-          a(href=social.url, target='_blank') #{social.url}
+      .home-message
+        //- use target attribute with _blank value
+        //- to open the link in a new tab
+        a(href=social.url, target='_blank') #{social.url}
