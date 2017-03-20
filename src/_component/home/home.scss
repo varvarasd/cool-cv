@@ -22,11 +22,13 @@ $class: 'home';
 .#{$class}-name {
   @extend %uppercase;
   font-size: 2rem;
+  font-family: 'Open Sans';
 }
 
 .#{$class}-title {
   @extend %uppercase;
   font-size: 1rem;
+  font-family: 'Open Sans';
 }
 
 
