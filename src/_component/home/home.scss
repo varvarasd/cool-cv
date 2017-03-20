@@ -10,6 +10,7 @@ $class: 'home';
   justify-content: center;
   align-items: center;
 }
+
 .#{$class}-wrapper {
   text-align: center;
 }
@@ -29,8 +30,15 @@ $class: 'home';
 }
 
 .#{$class}-social {
+// the ul tag has 100% width. we use display inline-flex
+// so that the container no longer breaks on new line
   display: inline-flex;
+// we use max-width 80viewport which means 80% of the width
+// which we can view on the screen
   max-width: 80vw;
+// if the total width of the children exceeds the available
+// width provided by this container, break the rest of the
+// content on new line
   flex-wrap: wrap;
 }
 
