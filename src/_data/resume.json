@@ -6,39 +6,43 @@
     "pageTitle": "Resume Daniel Varvara",
     "pageDescription": "This page serves as resume and portfolio work"
   },
-  "author": {
-    "name": "Daniel Varvara",
-    "title": "Web Developer",
-    "//": "There is no way to create comments in a JSON file and this is close enough",
-    "//": "The 'social' property value is an array of objects,",
-    "//": "a collection of objects, and each object has two properties,",
-    "//": "an icon and an url. The collection and Those properties",
-    "//": "will be used to generate the social media link bar.",
-    "social": [
-      {
-        "icon": "google-plus2",
-        "url": "https://plus.google.com/u/0/114997183380922961871"
-      },
-      {
-        "icon": "facebook2",
-        "url": "https://www.facebook.com/Searath"
-      },
-      {
-        "icon": "twitter",
-        "url": "https://twitter.com/SDVarvara"
-      },
-      {
-        "icon": "github",
-        "url": "https://github.com/varvarasd"
-      },
-      {
-        "icon": "skype",
-        "url": "skype:varvara_sd?call"
-      },
-      {
-        "icon": "linkedin",
-        "url": "https://www.linkedin.com/in/daniel-varvara-b14752104/"
+  "section": {
+    "home": {
+      "author": {
+        "name": "Daniel Varvara",
+        "title": "Web Developer",
+        "//": "There is no way to create comments in a JSON file and this is close enough",
+        "//": "The 'social' property value is an array of objects,",
+        "//": "a collection of objects, and each object has two properties,",
+        "//": "an icon and an url. The collection and Those properties",
+        "//": "will be used to generate the social media link bar.",
+        "social": [
+          {
+            "icon": "google-plus2",
+            "url": "https://plus.google.com/u/0/114997183380922961871"
+          },
+          {
+            "icon": "facebook2",
+            "url": "https://www.facebook.com/Searath"
+          },
+          {
+            "icon": "twitter",
+            "url": "https://twitter.com/SDVarvara"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/varvarasd"
+          },
+          {
+            "icon": "skype",
+            "url": "skype:varvara_sd?call"
+          },
+          {
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/in/daniel-varvara-b14752104/"
+          }
+        ]
       }
-    ]
+    }
   }
 }

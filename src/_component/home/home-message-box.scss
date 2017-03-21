@@ -99,7 +99,8 @@ input.#{$class}-radio[type=radio] {
   left: 10%;
   right: 10%;
   // and squeez it on the bottom by 100% height of the parent
-  top:      100%;
+  // ------ update to 101% to fix bleeding into parent container
+  top:      101%;
   // display:flex will make the content behave like inline elements
   display: flex;
   border-bottom-right-radius: 0.5rem;
