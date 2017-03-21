@@ -1,0 +1,46 @@
+$class: 'about';
+
+.#{$class} {
+  padding: 5vw;
+}
+
+%avatar-common {
+  border-radius: 0.5rem;
+  // use block for margin: auto and better positioning
+  display: block;
+}
+
+.#{$class}-avatar {
+  // apply %avatar-common rules
+  @extend %avatar-common;
+  // stretch as much as parent container
+  max-width: 100%;
+  border: 0.5rem solid $color-white;
+}
+
+.#{$class}-avatar-wrapper {
+  // apply %avatar-common rules
+  @extend %avatar-common;
+  max-width: 80%;
+  // combine max-width with margin: auto to position it to center
+  // (just like text-align: center)
+  margin: 1rem auto;
+  border: 0.5rem solid $color-gumbo;
+}
+
+.#{$class}-title {
+  color: $color-gambo;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.#{$class}-paragraph {
+  font-size: 1rem;
+  // increase the spacing between the two lines
+  line-height: 1.5;
+  // set the text to be displayed from the left margin all the way
+  // to the right margin
+  text-align: justify;
+  padding: 1rem 0;
+}
