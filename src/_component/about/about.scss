@@ -14,7 +14,7 @@ $class: 'about';
   // apply %avatar-common rules
   @extend %avatar-common;
   // stretch as much as parent container
-  max-width: 100%;
+  width: 100%;
   border: 0.5rem solid $color-white;
 }
 
