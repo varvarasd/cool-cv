@@ -43,6 +43,7 @@ $class: 'home';
   font-size: 0.8rem;
   text-decoration: none;
   color: black;
+  cursor: pointer;
   &active,
   &focus {
     color: $color-fiord;

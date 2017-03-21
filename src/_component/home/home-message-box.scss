@@ -44,9 +44,8 @@ $class: 'home-message';
 
 // Create a rounded corners rectangle
 .#{$class}-body {
-// That doesn't break on new line
+  // That doesn't break on new line
   display: inline-block;
-
   // With white border
   border: 0.2rem solid $color-white;
    // that has rounded corners

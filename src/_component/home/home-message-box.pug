@@ -21,9 +21,21 @@
     input.home-message-radio(type='radio', name='message-box', id='message-defaul', checked)
     //- the default message when no social media is selected
     .home-message Click the above icons to reveal
+    //- Home message box header will provide additional info
+    //- as well as a way to clear the current selected social
+    //- media icon. We'll make use of a simple CSS technique
+    //- that consists of:
+    //-   anchestor (parent) -> position: relative
+    //-   child              -> position: absolute
+    //- More info can be found in its scss counterpart
+    .home-message-box-header
+      .home-message-box-info
+      .home-message-box-close &times;
     each social, key in resume.author.social
       input.home-message-radio(type='radio', name='message-box', id='message-box-id-'+key)
       .home-message
         //- use target attribute with _blank value
         //- to open the link in a new tab
         a.home-message-link(href=social.url, target='_blank') #{social.url}
+
+      
