@@ -24,7 +24,11 @@
 
 $class: 'home-message';
 
-.#{$class}-radio  .#{$class} {
+.#{$class} {
+  color: $color-white;
+}
+
+.#{$class}-radio + .#{$class} {
   // Hide all .home-message that follow as sibling
   // an input type radio with checked state as false
   display: none;
@@ -119,6 +123,8 @@ input.#{$class}-radio[type=radio] {
   overflow-x: hidden;
   // and display three dots to let the user know there is more hidden content
   text-overflow: ellipsis;
+  // set the text to be centered vertically using line-height
+  line-height: 1.5rem;
 }
 
 .#{$class}-box {
@@ -128,4 +134,7 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-box-close {
   border-bottom-right-radius: 0.4rem;
   cursor: pointer;
+  // enlarge the action call area to increase usability
+  width: 2.5rem;
+  font-size: 1.5rem;
 }
