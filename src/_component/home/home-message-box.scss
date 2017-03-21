@@ -150,6 +150,8 @@ input.#{$class}-radio[type=radio] {
 
 .#{$class}-box-close {
   border-bottom-right-radius: 0.4rem;
+  // set cursor to pointer so desktop users will see a hand that suggests
+  // interraction is possible
   cursor: pointer;
   // enlarge the action call area to increase usability
   width: 2.5rem;
