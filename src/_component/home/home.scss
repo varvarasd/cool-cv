@@ -1,3 +1,5 @@
+@import 'home-message-box';
+
 $class: 'home';
 
 %uppercase {
@@ -41,7 +43,11 @@ $class: 'home';
   font-size: 0.8rem;
   text-decoration: none;
   color: black;
+  &active,
+  &focus {
+    color: $color-fiord;
 }
+
 
 .#{$class}-social {
 // the ul tag has 100% width. we use display inline-flex
