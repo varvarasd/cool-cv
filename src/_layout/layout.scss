@@ -1,5 +1,16 @@
 @import 'reset';
 
+* {
+  // set the border size to box
+  box-sizing: border-box;
+}
+body {
+  // set font family 'open sans' for all elements
+  font-family: 'Open Sans';
+}
+
+
+
 html {
   font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
 }
