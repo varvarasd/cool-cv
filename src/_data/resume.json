@@ -7,6 +7,29 @@
     "pageDescription": "This page serves as resume and portfolio work"
   },
   "section": {
+    "about": {
+      "title": "About me",
+      "content": [
+        {
+          "type": "avatar",
+          "url": "/asset/image/eu.jpg"
+        },
+        {
+          "type": "text",
+          "title": "Daniel Varvara",
+          "text": [
+            "A conscientious and highly motivated to progress individual."
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Skills",
+          "text": [
+            "Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla"
+          ]
+        }
+      ]
+    },
     "home": {
       "author": {
         "name": "Daniel Varvara",
