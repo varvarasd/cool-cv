@@ -25,10 +25,21 @@
           ]
         },
         {
-          "type": "text",
+          "type": "card",
           "title": "Skills",
-          "text": [
-            "Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla"
+          "card": [
+            {
+              "title": "HTML",
+              "description": "I've learnerd HTML with a help of a good friend and on my own in one month.",
+              "location": "Home",
+              "date": "01.01.2017"
+            },
+            {
+              "title": "CSS",
+              "description": "I've learnerd CSS with a help of a good friend and on my own in one month.",
+              "location": "Home",
+              "date": "01.02.2017"
+            }
           ]
         }
       ]
