@@ -1,7 +1,7 @@
 $class: 'about';
 
 .#{$class} {
-  padding: 5vw;
+  @extend %section-container;
 }
 
 %avatar-common {
@@ -33,7 +33,7 @@ $class: 'about';
 }
 
 .#{$class}-title {
-  color: $color-gambo;
+  color: $color-gumbo;
   font-size: 2rem;
   text-align: center;
   padding: 2rem 0 1rem;
