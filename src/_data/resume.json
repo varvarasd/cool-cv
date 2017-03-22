@@ -7,6 +7,9 @@
     "pageDescription": "This page serves as resume and portfolio work"
   },
   "section": {
+    "experience": {
+      "title": "Experience"
+    },
     "about": {
       "title": "About me",
       "content": [
