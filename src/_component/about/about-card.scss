@@ -1,5 +1,49 @@
 $class: 'about-card';
 
 .#{$class} {
-  
+  border-radius: 1rem;
+  border: 1rem solid $color-fiord;
+  margin-bottom: 1rem;
+  // select all the resume-icons span elements
+  span[class*=resume-icon] {
+    padding: 0 1rem;
+  }
+}
+
+// about-card-item in each of the skill list
+.#{$class}-item {
+  // set width to 80% to play with the amount of text
+  // that gets to be on each line
+  width: 80%;
+  // and position it to center
+  margin: 0 auto;
+}
+
+.#{$class}-title {
+  font-weight: bold;
+}
+
+.#{$class}-description {
+  font-style: italic;
+}
+
+.#{$class}-title,
+.#{$class}-description,
+.#{$class}-location,
+.#{$class}-date {
+  // match the style of the parent element
+  border-bottom: 0.1rem solid $color-fiord;
+  text-align: center;
+  padding: 0.5rem;
+  // and set the font-size and line-height as the one of the paragraph
+  font-size: 1rem;
+  line-height: 1.5rem;
+  // and be smart about positioning the children
+  display: flex;
+  // and set the items to be vertically centered
+  align-items: center;
+  min-height: 2rem;
+  &:last-child {
+    border-bottom: none;
+  }
 }

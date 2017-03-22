@@ -20,11 +20,23 @@
   text-transform: none;
   line-height: 1;
 
-/* Better font rendering -------------*/
+// Better font rendering -------------
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 // list of font icons
+.resume-icon-map2:before {
+  content: "\e94c";
+}
+.resume-icon-calendar:before {
+  content: "\e953";
+}
+.resume-icon-trophy:before {
+  content: "\e99e";
+}
+.resume-icon-info:before {
+  content: "\ea0c";
+}
 .resume-icon-google-plus2:before {
   content: "\ea8c";
 }

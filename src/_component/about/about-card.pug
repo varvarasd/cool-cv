@@ -1,8 +1,25 @@
 //- loop through each of the card collection
 //- and render as many paragraphs as available
+
 each card in content.card
+  //- about card list
   .about-card
-    h3.about-card-title #{card.title}
-    p.about-card-descrition #{card.description}
-    p.about-card-location #{card.location}
-    p.about-card-date #{card.date}
+    //- about card list item
+    h3.about-card-title
+      //- set the icon symbol for title
+      span.resume-icon-trophy
+      //- print item content
+      span.about-card-item #{card.title}
+    //- about card list item
+    p.about-card-description
+      //- set the icon symbol for description
+      span.resume-icon-info
+      //- print item content
+      span.about-card-item #{card.description}
+    p.about-card-location
+      span.resume-icon-map2
+      span.resume-card-item #{card.location}
+    p.about-card-date
+      span.resume-icon-calendar
+        span.about-card-item #{card.date}
+      
