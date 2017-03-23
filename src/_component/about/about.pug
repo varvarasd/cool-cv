@@ -17,6 +17,6 @@
           each paragraph in content.text
             p.about-paragraph #{paragraph}
           //- check if it is of card type
-          if content.type === 'card'
-            h2.about-title #{content.title}
+        if content.type === 'card'
+          h2.about-title #{content.title}
           include about-card

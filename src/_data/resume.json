@@ -4,7 +4,7 @@
   "//": "the page title tag and meta description for SEO purpose",
   "page": {
     "pageTitle": "Resume Daniel Varvara",
-    "pageDescription": "This page serves as my resume and portfolio."
+    "pageDescription": "This site serves as a resume and portfolio."
   },
   "section": {
     "experience": {
@@ -21,32 +21,32 @@
           "type": "text",
           "title": "Daniel Varvara",
           "text": [
-            "A conscientious and highly motivated to progress individual."
+            "A conscientious and highly motivated individual to be better today than yesterday."
           ]
         },
         {
           "type": "card",
-          "title": "Skills",
+          "title": "Hobbies",
           "card": [
             {
-              "title": "HTML",
-              "description": "I’ve learned HTML in one month with help from a good friend.",
-              "location": "London",
-              "date": "01.01.2017"
+              "title": "Title",
+              "description": "Description",
+              "location": "Location",
+              "date": "Date"
             },
             {
-              "title": "CSS",
-              "description": "I've learned CSS in one month with help from a good friend.",
-              "location": "London",
-              "date": "01.02.2017"
+              "title": "Title",
+              "description": "Description.",
+              "location": "Location",
+              "date": "Date"
             }
           ]
         },
         {
           "type": "text",
-          "title": "Skills",
+          "title": "Achievement",
           "text": [
-            "BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla."
+            "Text achievement"
           ]
         }
       ]
