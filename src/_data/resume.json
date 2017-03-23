@@ -8,12 +8,33 @@
   },
   "section": {
     "experience": {
-      "title": "Experience"
+      "title": "Experience",
+      "content": [{
+        "type": "list",
+        "list": [{
+          "date": "some.date.year1",
+          "jobTitle": "Some Job Title",
+          "company": "Some company name",
+          "summary": "Some summary",
+          "responsibility": ["Some responsibilities",
+            "which run on more than one line."]
+          },
+          {
+          "date": "some.date.year2",
+          "jobTitle": "Some Job Title",
+          "company": "some company name",
+          "summary": " Some summary",
+          "responsibility": [
+            "Some responsibilties",
+            "which run on two lines."
+            ]
+          }
+        ]
+      }]
     },
     "about": {
       "title": "About me",
-      "content": [
-        {
+      "content": [{
           "type": "avatar",
           "url": "asset/image/eu.jpg"
         },
@@ -27,8 +48,7 @@
         {
           "type": "card",
           "title": "Hobbies",
-          "card": [
-            {
+          "card": [{
               "title": "Title",
               "description": "Description",
               "location": "Location",
@@ -60,8 +80,7 @@
         "//": "a collection of objects, and each object has two properties,",
         "//": "an icon and an url. The collection and Those properties",
         "//": "will be used to generate the social media link bar.",
-        "social": [
-          {
+        "social": [{
             "icon": "google-plus2",
             "url": "https://plus.google.com/u/0/114997183380922961871"
           },
