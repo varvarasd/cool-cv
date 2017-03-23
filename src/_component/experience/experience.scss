@@ -8,7 +8,7 @@ $class: 'experience';
   @extend %section-title;
 }
 
-.#{class}-list-header {
+.#{$class}-list-header {
   // make the list header full width
   display: block;
   font-size: 1.2rem;
@@ -22,7 +22,7 @@ $class: 'experience';
   }
 }
 
-.#{class}-list-body {
+.#{$class}-list-body {
   // use max-height and overflow:hidden CSS Trick
   // to make a PURE CSS accordion
   max-height: 0;
@@ -34,26 +34,26 @@ $class: 'experience';
   // other way around
   transition: 0.25s;
 }
-.#{class}-list-radio {
+.#{$class}-list-radio {
   // hide all the input type radio buttons
   display: none;
 }
 
-.#{class}-list-company {
+.#{$class}-list-company {
   font-weight: bold;
 }
 
-.#{class}-list-date {
+.#{$class}-list-date {
   font-style: italic;
 }
-.#{class}-list-date,
-.#{class}-list-company,
-.#{class}-responsibility-list-item,
-.#{class}-list-summary {
+.#{$class}-list-date,
+.#{$class}-list-company,
+.#{$class}-responsibility-list-item,
+.#{$class}-list-summary {
   padding: 0.5rem;
 }
 
-.#{class}-list-info {
+.#{$class}-list-info {
   // use display:flex to make the children appear on the same row
   display: flex;
   // and use space between of justify content to make them
@@ -61,11 +61,11 @@ $class: 'experience';
   justify-content: space-between;
 }
 
-.#{class}-responsability-list {
+.#{$class}-responsability-list {
   margin-bottom: 0.4rem;
 }
 
-.#{class}-responsability-list-item {
+.#{$class}-responsability-list-item {
   // make the list item lose touch with the body
   // and make it sit centered
   width: 90%;
@@ -97,7 +97,7 @@ $class: 'experience';
 // of the same parent
 
 
-.#{class}-list-radio:checked + .#{class}-list-header {
+.#{$class}-list-radio:checked + .#{class}-list-header {
   // change the background color of the selected header experience
   background-color: $color-gumbo;
   border-bottom: none;
@@ -116,7 +116,7 @@ $class: 'experience';
   // In this example the input:checked + div + div will target
   // the .body div that follows the input with checked state.
 
-.#{class}-list-radio:checked + .#{class}-list-header + .#{class}-list-body {
+.#{$class}-list-radio:checked + .#{class}-list-header + .#{class}-list-body {
   max-height: 100rem;
   border: 0.1rem solid darken($color-gumbo, 10)
 }
