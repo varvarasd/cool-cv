@@ -11,9 +11,15 @@ $class: 'experience';
 .#{class}-list-header {
   // make the list header full width
   display: block;
-  padding: 0.5rem;
+  font-size: 1.2rem;
+  padding: 1rem;
   background-color: $color-lily;
   color: $color-white;
+  cursor: pointer;
+  border-bottom: 0.1rem solid darken($color-lily, 10)
+  &:last-of-type {
+    border-bottom: none;
+  }
 }
 
 .#{class}-list-body {
@@ -27,6 +33,52 @@ $class: 'experience';
   // transition from 0 height to actual height or the
   // other way around
   transition: 0.25s;
+}
+.#{class}-list-radio {
+  // hide all the input type radio buttons
+  display: none;
+}
+
+.#{class}-list-company {
+  font-weight: bold;
+}
+
+.#{class}-list-date {
+  font-style: italic;
+}
+.#{class}-list-date,
+.#{class}-list-company,
+.#{class}-responsibility-list-item,
+.#{class}-list-summary {
+  padding: 0.5rem;
+}
+
+.#{class}-list-info {
+  // use display:flex to make the children appear on the same row
+  display: flex;
+  // and use space between of justify content to make them
+  // sit one to the left and one to the right
+  justify-content: space-between;
+}
+
+.#{class}-responsability-list {
+  margin-bottom: 0.4rem;
+}
+
+.#{class}-responsability-list-item {
+  // make the list item lose touch with the body
+  // and make it sit centered
+  width: 90%;
+  margin: 0 auto;
+
+  // alternate background colour using even and odd
+  // parameters of nth-child pseudo selector
+  &:nth-child(odd) {
+    background-color: lighten($color-almond, 10%)
+  }
+  &:nth-child(even) {
+    background-color: lighten($color-lily, 10%)
+  }
 }
 
 
@@ -48,6 +100,7 @@ $class: 'experience';
 .#{class}-list-radio:checked + .#{class}-list-header {
   // change the background color of the selected header experience
   background-color: $color-gumbo;
+  border-bottom: none;
 }
 
   // We use the adjacent selector twice, which means we are targeting
@@ -64,5 +117,6 @@ $class: 'experience';
   // the .body div that follows the input with checked state.
 
 .#{class}-list-radio:checked + .#{class}-list-header + .#{class}-list-body {
-  max-height: 56rem;
+  max-height: 100rem;
+  border: 0.1rem solid darken($color-gumbo, 10)
 }

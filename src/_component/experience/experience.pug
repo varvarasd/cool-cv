@@ -7,8 +7,10 @@
           label(for='experience-item-${key}') #{listItem.date}
           input.experience-list-radio(type="radio", name="experience-list", id="experience-item-${key}")
           .experience-list-body
-            div #{listItem.date}
-            div #{listItem.summary}
-            ul
+            .experience-list-info
+              .experience-list-date #{listItem.date}
+              .experience-list-company #{listItem.company}
+            .experience-list-summary #{listItem.summary}
+            ul.experience-responsability-list
               each resposibility in listItem.responsibility
-                li #{responsibility}
+                li.experience-responsability-list-item #{responsibility}
