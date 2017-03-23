@@ -4,13 +4,13 @@
     each experience in section.experience.content
       if experience.type === 'list'
         each listItem, key in experience.list
-          label(for='experience-item-${key}') #{listItem.date}
-          input.experience-list-radio(type="radio", name="experience-list", id="experience-item-${key}")
+          input.experience-list-radio(type="radio", name="experience-list", id='experience-item-${key}')
+          label.experience-list-header(for='experience-item-${key}') #{listItem.jobTitle}
           .experience-list-body
             .experience-list-info
               .experience-list-date #{listItem.date}
               .experience-list-company #{listItem.company}
             .experience-list-summary #{listItem.summary}
             ul.experience-responsability-list
-              each resposibility in listItem.responsibility
+              each responsibility in listItem.responsibility
                 li.experience-responsability-list-item #{responsibility}
