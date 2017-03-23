@@ -6,7 +6,7 @@ $class: 'about-card';
   margin-bottom: 1rem;
   // select all the resume-icons span elements
   span[class*=resume-icon] {
-    padding: 0 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -36,7 +36,7 @@ $class: 'about-card';
   text-align: center;
   padding: 1.2rem;
   // and set the font-size and line-height as the one of the paragraph
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   // and be smart about positioning the children
   display: flex;
