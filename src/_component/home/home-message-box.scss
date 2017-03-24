@@ -25,7 +25,7 @@
 $class: 'home-message';
 
 .#{$class} {
-  color: $color-white;
+  color: darken($color-white, 40);
 }
 
 .#{$class}-radio + .#{$class} {
@@ -55,7 +55,7 @@ input.#{$class}-radio[type=radio] {
   // That doesn't break on new line
   display: inline-block;
   // With white border
-  border: 0.2rem solid $color-white;
+  border: 0.2rem solid darken($color-white, 20);
   // that has rounded corners
   border-radius: 0.5rem;
   // and enough clear space between border and text content

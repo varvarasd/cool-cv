@@ -11,12 +11,12 @@ $class: 'experience';
 .#{$class}-list-header {
   // make the list header full width
   display: block;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1.5rem;
+  padding: 1.5rem;
   background-color: $color-lily;
   color: $color-white;
   cursor: pointer;
-  border-bottom: 0.1rem solid darken($color-lily, 10)
+  border-bottom: 0.1rem solid darken($color-lily, 10);
   &:last-of-type {
     border-bottom: none;
   }
@@ -65,6 +65,13 @@ $class: 'experience';
   margin-bottom: 0.4rem;
 }
 
+.#{$class}-responsability-list-item,
+.#{$class}-list-summary {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
 .#{$class}-responsability-list-item {
   // make the list item lose touch with the body
   // and make it sit centered
@@ -74,10 +81,10 @@ $class: 'experience';
   // alternate background colour using even and odd
   // parameters of nth-child pseudo selector
   &:nth-child(odd) {
-    background-color: lighten($color-almond, 10%)
+    background-color: lighten($color-almond, 10%);
   }
   &:nth-child(even) {
-    background-color: lighten($color-lily, 10%)
+    background-color: lighten($color-lily, 10%);
   }
 }
 
@@ -97,7 +104,7 @@ $class: 'experience';
 // of the same parent
 
 
-.#{$class}-list-radio:checked + .#{class}-list-header {
+.#{$class}-list-radio:checked + .#{$class}-list-header {
   // change the background color of the selected header experience
   background-color: $color-gumbo;
   border-bottom: none;
@@ -116,7 +123,7 @@ $class: 'experience';
   // In this example the input:checked + div + div will target
   // the .body div that follows the input with checked state.
 
-.#{$class}-list-radio:checked + .#{class}-list-header + .#{class}-list-body {
+.#{$class}-list-radio:checked + .#{$class}-list-header + .#{$class}-list-body {
   max-height: 100rem;
-  border: 0.1rem solid darken($color-gumbo, 10)
+  border: 0.1rem solid darken($color-gumbo, 10);
 }
