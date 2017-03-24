@@ -25,7 +25,7 @@
 $class: 'home-message';
 
 .#{$class} {
-  color: darken($color-white, 40);
+  color: darken($color-white, 60);
 }
 
 .#{$class}-radio + .#{$class} {
@@ -55,7 +55,7 @@ input.#{$class}-radio[type=radio] {
   // That doesn't break on new line
   display: inline-block;
   // With white border
-  border: 0.2rem solid darken($color-white, 20);
+  border: 0.2rem solid $color-white;
   // that has rounded corners
   border-radius: 0.5rem;
   // and enough clear space between border and text content
@@ -73,7 +73,7 @@ input.#{$class}-radio[type=radio] {
   font-size: 1.4rem;
   // Remove the default underline present in anchor tags
   text-decoration: none;
-  color: $color-white;
+  color: inherit;
 }
 
 
@@ -110,7 +110,7 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-box-close,
 .#{$class}-box-info {
   padding: 0.4rem;
-  background-color: $color-white;
+  background-color: transparent;
   @extend %noselect;
 }
 
@@ -126,6 +126,7 @@ input.#{$class}-radio[type=radio] {
   text-overflow: ellipsis;
   // set the text to be centered vertically using line-height
   line-height: 1.5rem;
+  border-top: 0.2rem solid $color-white;
 }
 // Since we are using position absolute for home-message-box-header,
 // this means the element is behaving like it's no longer present in the
