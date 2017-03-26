@@ -7,6 +7,36 @@
     "pageDescription": "This site serves as a resume and portfolio."
   },
   "section": {
+    "skill": {
+      "title": "my skills",
+      "content": [{
+          "type": "list",
+          "title": "front end",
+          "list": [
+            "HTML",
+            "HTML5",
+            "CSS",
+            "CSS3",
+            "JavaScript",
+            "jQuery",
+            "SASS",
+            "jQuery",
+            "Bootstrap",
+            "Gulp",
+            "Yeoman",
+            "Github API"
+          ]},{
+          "type": "list",
+          "title": "back end",
+          "list": [
+            "Git",
+            "JSON",
+            "NodeJS",
+            "Linux"
+          ]
+        }
+      ]
+    },
     "experience": {
       "title": "Experience",
       "content": [{

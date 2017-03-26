@@ -5,7 +5,9 @@
       if experience.type === 'list'
         each listItem, key in experience.list
           input.experience-list-radio(type="radio", name="experience-list", id=`experience-item-${key}`)
-          label.experience-list-header(for=`experience-item-${key}`) #{listItem.jobTitle}
+          label.experience-list-header(for=`experience-item-${key}`)
+            a(name=listItem.jobTitle)
+            span #{listItem.jobTitle}
           .experience-list-body
             .experience-list-info
               .experience-list-date #{listItem.date}

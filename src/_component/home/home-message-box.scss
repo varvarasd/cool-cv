@@ -29,7 +29,7 @@ $class: 'home-message';
 }
 
 .#{$class}-radio + .#{$class} {
-  // Hide all .home-message that follow as sibling
+  // Hide all .home-message that follow as sibling to
   // an input type radio with checked state as false
   display: none;
 }
