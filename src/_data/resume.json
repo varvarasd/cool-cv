@@ -25,7 +25,8 @@
             "Gulp",
             "Yeoman",
             "Github API"
-          ]},{
+          ]},
+          {
           "type": "list",
           "title": "back end",
           "list": [
