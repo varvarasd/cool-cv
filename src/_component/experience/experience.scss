@@ -20,7 +20,12 @@ $class: 'experience';
   &:last-of-type {
     border-bottom: none;
   }
+  .resume-icon-plus {
+    float: right;
+  }
 }
+
+
 
 .#{$class}-list-body {
   // use max-height and overflow:hidden CSS Trick
@@ -108,6 +113,9 @@ $class: 'experience';
   // change the background color of the selected header experience
   background-color: $color-gumbo;
   border-bottom: none;
+  .resume-icon-plus {
+    transform: rotate(45deg);
+  }
 }
 
   // We use the adjacent selector twice, which means we are targeting
