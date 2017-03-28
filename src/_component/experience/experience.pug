@@ -24,12 +24,12 @@
               a(name=listItem.jobTitle)
               span #{listItem.jobTitle}
               label.experience-list-close(for="experince-list-close")
-                span.resume-icon-plus
               span.resume-icon-plus
-          .experience-list-body
-            .experience-list-info
-              .experience-list-date #{listItem.date}
-              .experience-list-company #{listItem.company}
+              span.resume-icon-plus
+            .experience-list-body
+              .experience-list-info
+                .experience-list-date #{listItem.date}
+                .experience-list-company #{listItem.company}
             .experience-list-summary #{listItem.summary}
             ul.experience-responsability-list
               each responsibility in listItem.responsibility
