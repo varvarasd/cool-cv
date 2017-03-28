@@ -7,6 +7,16 @@
     "pageDescription": "This site serves as a resume and portfolio."
   },
   "section": {
+    "client": {
+      "title":  "recent clients",
+      "content": [
+        "atom.jpg",
+        "atom1.jpg",
+        "atom2.jpg",
+        "atom3.jpg",
+        "atom4.jpg"
+      ]
+    },
     "menu": {
       "action": {
         "label": "menu",
