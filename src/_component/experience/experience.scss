@@ -39,6 +39,7 @@ $class: 'experience';
   // other way around
   transition: 0.25s;
 }
+
 .#{$class}-list-radio {
   // hide all the input type radio buttons
   display: none;
@@ -51,11 +52,12 @@ $class: 'experience';
 .#{$class}-list-date {
   font-style: italic;
 }
+
 .#{$class}-list-date,
 .#{$class}-list-company,
 .#{$class}-responsibility-list-item,
 .#{$class}-list-summary {
-  padding: 0.5rem;
+  padding: 1.2rem;
 }
 
 .#{$class}-list-info {
@@ -80,7 +82,7 @@ $class: 'experience';
 .#{$class}-responsability-list-item {
   // make the list item lose touch with the body
   // and make it sit centered
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
 
   // alternate background colour using even and odd
@@ -91,13 +93,6 @@ $class: 'experience';
   &:nth-child(even) {
     background-color: lighten($color-lily, 10%);
   }
-}
-
-.#{$class}-list-close {
-  // hide the label that can close the header
-  // of the experience list unless it's expended
-  display: none;
-  float: right;
 }
 
 // we're using the adjacent selector "+" to apply css properties
@@ -119,12 +114,7 @@ $class: 'experience';
   // change the background color of the selected header experience
   background-color: $color-gumbo;
   border-bottom: none;
-  .#{$class}-list-close {
-    display: inherit;
-  }
-  & > .resume-icon.plus {
-    display: none;
-  }
+
   .resume-icon-plus {
     transform: rotate(45deg);
   }
