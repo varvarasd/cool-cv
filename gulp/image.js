@@ -1,11 +1,7 @@
 'use strict';
 
 import path from 'path';
-import pngquant from 'imagemin-pngquant';
-import jpegtran from 'imagemin-jpegtran';
-import optipng from 'imagemin-optipng';
-import gifsicle from 'imagemin-gifsicle';
-import svgo from 'imagemin-svgo';
+import jpegoptim from 'imagemin-jpegoptim';
 
 const image = ({
   gulp,
