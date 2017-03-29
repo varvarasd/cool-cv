@@ -13,7 +13,7 @@ html
       //- into "css" and finally to "external" and find the value to be "true"
       //- or "false"
     if config.entry.css.external
-      link(rel="stylesheet", href="style.css")
+      link(rel="stylesheet", href=`${inlinePath}`, inline)
   body
     .container
       block content
