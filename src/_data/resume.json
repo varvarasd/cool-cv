@@ -102,8 +102,9 @@
       }]
     },
     "about": {
-      "title": "About me",
-      "content": [{
+      "title": "about me",
+      "content": [
+        {
           "type": "avatar",
           "url": "asset/image/eu.jpg"
         },
@@ -136,6 +137,22 @@
           "title": "Achievement",
           "text": [
             "Text achievement"
+          ]
+        },
+        {
+          "type": "link",
+          "title": "grab the cool stuff",
+          "link": [
+            {
+              "url": "https://github.com/varvarasd",
+              "icon": "github",
+              "text": "Click to visit the GitHub project source"
+            },
+            {
+              "url": "asset/doc/cv_daniel_varvara.docx",
+              "icon": "word",
+              "text": "Click to download the Microsoft Word version"
+            }
           ]
         }
       ]
