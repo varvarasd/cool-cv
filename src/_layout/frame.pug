@@ -12,7 +12,7 @@ html
       //- and you can navigate to the "config" property, down to "entry", and
       //- into "css" and finally to "external" and find the value to be "true"
       //- or "false"
-    if config.entry.css.external
+    if config.entry.css.inline
       link(rel="stylesheet", href=`${inlinePath}`, inline)
   body
     .container
