@@ -115,26 +115,15 @@
         },
         {
           "type": "card",
-          "title": "Hobbies",
+          "title": "Soft skills",
           "card": [{
-              "title": "Title",
-              "description": "Description",
-              "location": "Location",
-              "date": "Date"
+              "title": "Empathy in communication",
+              "description": "I'm a very big fan of sciences and mostly psychology and neuroscience and not just because they hold amazing personal developing tools but also because i think they are crucial in an ever growing and interconnected society. I'm proud to say that it has made my working environment a place to enjoy with others which has brought me only benefits professionally and personally."
             },
             {
               "title": "Title",
-              "description": "Description.",
-              "location": "Location",
-              "date": "Date"
+              "description": "Description."
             }
-          ]
-        },
-        {
-          "type": "text",
-          "title": "Achievement",
-          "text": [
-            "Text achievement"
           ]
         },
         {
