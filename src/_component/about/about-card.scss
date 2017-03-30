@@ -2,7 +2,7 @@ $class: 'about-card';
 
 .#{$class} {
   border-radius: 1rem;
-  border: 1rem solid $color-fiord;
+  border: 0.1rem solid $color-fiord;
   margin-bottom: 1rem;
   // select all the resume-icons span elements
   span[class*=resume-icon] {
