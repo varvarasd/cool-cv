@@ -12,6 +12,10 @@ $class: 'note';
   padding: 0.5rem;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
 .#{$class}-label-no,
 .#{$class}-label-yes {
   cursor: pointer;
