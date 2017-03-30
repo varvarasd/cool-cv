@@ -18,12 +18,13 @@ $class: 'about';
 }
 
 .#{$class}-link {
-  border: 0.1rem solid $color-lily;
   color: $color-gumbo;
-  padding: 1rem;
   width: 80%;
   margin: 1rem auto;
-  
+  display: flex;
+  justify-content: center;
+  border: 0.1rem solid $color-lily;
+  padding: 0.5rem;
 }
 
 
