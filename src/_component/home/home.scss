@@ -20,8 +20,8 @@ $class: 'home';
 .#{$class}-wrapper {
   text-align: center;
   padding: 0.1rem 0.8rem;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+
 }
 
 .#{$class}-name {
@@ -69,5 +69,5 @@ $class: 'home';
   flex-wrap: wrap;
   // set the items that break on new line to be aligned center
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
