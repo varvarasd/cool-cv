@@ -8,13 +8,8 @@
   },
   "section": {
     "client": {
-      "title":  "recent clients",
-      "content": [
-        "atom.jpg",
-        "atom1.jpg",
-        "atom2.jpg",
-        "atom3.jpg"
-      ]
+      "title":  "recent client",
+      "content": "bitbee.svg"
     },
     "menu": {
       "action": {
@@ -42,6 +37,11 @@
           "label": "skill",
           "url": "skill",
           "icon": "resume-icon-hammer"
+        },
+        {
+          "label": "client",
+          "url": "client",
+          "icon": "resume-icon-briefcase"
         }
       ]
     },
@@ -52,9 +52,7 @@
           "title": "front end",
           "list": [
             "HTML",
-            "HTML5",
             "CSS",
-            "CSS3",
             "JavaScript",
             "jQuery",
             "SASS",
