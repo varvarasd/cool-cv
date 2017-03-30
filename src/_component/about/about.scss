@@ -17,6 +17,16 @@ $class: 'about';
   @extend %section-title;
 }
 
+.#{$class}-link {
+  border: 0.1rem solid $color-lily;
+  color: $color-gumbo;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  
+}
+
+
 .#{$class}-avatar {
   // apply %avatar-common rules
   @extend %avatar-common;

@@ -26,8 +26,8 @@
       "cssExternal": "style**.{scss,sass}",
       "cssInline": "inline**.{scss,sass}",
       "css": {
-        "inline": true,
-        "external": false
+        "inline": false,
+        "external": true
       }
     }
   },
@@ -73,6 +73,8 @@
     "imagemin-jpegoptim": "^5.0.0",
     "imagemin-pngquant": "^5.0.0",
     "imagemin-svgo": "^5.2.0",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "pngquant": "^1.2.0",
+    "pngquant-bin": "^3.1.1"
   }
 }
