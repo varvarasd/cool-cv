@@ -54,23 +54,23 @@ input.#{$class}-radio[type=radio] {
 .#{$class}-body {
   // That doesn't break on new line
   display: inline-block;
-  // With white border
-  border: 0.2rem solid darken($color-white, 20);
   // that has rounded corners
   border-radius: 0.5rem;
   // and enough clear space between border and text content
-  padding: 0.8rem;
+  padding: 0.5rem;
   // and enough space on top of it away from social box
   margin-top: 0.5rem;
   // set the position to relative so the children that have
   // position: absolute will be bound to this container
   position: relative;
+  border: 0.1rem solid darken($color-white, 60);
+  background: $color-transparent;
 }
 
 // Hide the input type radio elements
 .#{$class}-link,
 .#{$class}-link:visited {
-  font-size: 1.4rem;
+  font-size: 1rem;
   // Remove the default underline present in anchor tags
   text-decoration: none;
   color: inherit;
@@ -104,12 +104,14 @@ input.#{$class}-radio[type=radio] {
   display: flex;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+  color: darken($color-white, 60);
 }
 
 .#{$class}-box-close,
 .#{$class}-box-info {
-  padding: 0.4rem;
-  background-color: transparent;
+  padding: 0.2rem;
+  background: $color-transparent;
+  border: 0.1rem solid darken($color-white, 60);
   @extend %noselect;
 }
 
@@ -125,7 +127,7 @@ input.#{$class}-radio[type=radio] {
   text-overflow: ellipsis;
   // set the text to be centered vertically using line-height
   line-height: 1.5rem;
-  border-top: solid darken($color-white, 20);
+  border-right: 0;
 }
 // Since we are using position absolute for home-message-box-header,
 // this means the element is behaving like it's no longer present in the
@@ -146,7 +148,7 @@ input.#{$class}-radio[type=radio] {
 // bottom so the .home-message-box-header looks visually that
 // it's inside the parent container
 .#{$class}-box {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .#{$class}-box-close {
