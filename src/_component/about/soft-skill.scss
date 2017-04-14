@@ -1,0 +1,13 @@
+$class: 'soft-skill';
+
+.#{$class} {
+  border: 0.1rem solid $color-periwinkle-gray;
+}
+
+.#{$class}-title {
+  padding: 1rem;
+}
+
+input:checked + .#{$class}-description {
+  color: red;
+}

@@ -79,22 +79,45 @@
       "content": [{
         "type": "list",
         "list": [{
-          "date": "some.date.year1",
-          "jobTitle": "Some Job Title",
-          "company": "Some company name",
-          "summary": "Some summary",
-          "responsibility": ["Some responsibilities",
-            "which run on more than one line."]
+          "date": "august 2016 - to present",
+          "jobTitle": "junior web developer",
+          "company": "bitbee ltd",
+          "responsibility": [
+            "developing and maintaining the front end functionality of simple websites",
+            "writing well designed, testable, efficient code by using best web development practiceswriting well designed, testable, efficient code by using best web development practices",
+            "building simple websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
+          ]
           },
           {
-          "date": "some.date.year2",
-          "jobTitle": "Some Job Title",
-          "company": "some company name",
-          "summary": " Some summary",
+          "date": "september 2015 - august 2016",
+          "jobTitle": "lettings consultant",
+          "company": "citiquays estate agents (poplar)",
           "responsibility": [
-            "Some responsibilties",
-            "which run on two lines."
+            "taking and arranging property viewings efficiently",
+            "making sure all clients are referenced and checked in the filing process prior the contract",
+            "negotiating and closing existing and new offers and contracts",
+            "selling all company services strongly and ethically",
+            "online touting and canvassing for new clients on social media",
+            "solve any customer enquiries, or liaise with the competent partners for the relevant raised issues",
+            "keeping records of all activity and improving the possible client database",
+            "company car and phone in care"
             ]
+          },
+          {
+            "date": "april 2012 - september 2015",
+            "jobTitle": "assistant manager",
+            "company": "bella vita (broadway market)",
+            "responsibility": [
+              "staff management, training and recruiting",
+              "creating the working rota efficiently to fit the business requirements financially and the client professionally",
+              "stock keeping and daily ordering of goods",
+              "assist with menu creation and weekly specials",
+              "taking bookings and managing turning times",
+              "table and bar service",
+              "developing recurring business by maintaining  meaningful relationships with the customers",
+              "ensure that guests have a good time at the restaurant and look immediately into any complainants they might have",
+              "food and wine matching and guiding guests throughout their restaurant experience"
+              ]
           }
         ]
       }]
@@ -121,8 +144,32 @@
               "description": "I'm a very big fan of sciences and mostly psychology and neuroscience and not just because they hold amazing personal developing tools but also because i think they are crucial in an ever growing and interconnected society. I'm proud to say that it has made my working environment a place to enjoy with others which has brought me only benefits professionally and personally."
             },
             {
-              "title": "Title",
-              "description": "Description."
+              "title": "Always keen to learn",
+              "description": "Describe learning"
+            },
+            {
+              "title": "Patience",
+              "description": "Describe patience"
+            },
+            {
+              "title": "Time management",
+              "description": "Describe time management"
+            },
+            {
+              "title": "Innitiative",
+              "description": "Describe innitiative"
+            },
+            {
+              "title": "Creativity",
+              "description": "Describe creativity"
+            },
+            {
+              "title": "Flexibility",
+              "description": "describe flexibility"
+            },
+            {
+              "title": "Team player",
+              "description": "describe team playing"
             }
           ]
         },
@@ -136,7 +183,7 @@
               "text": "Click to visit the GitHub project source"
             },
             {
-              "url": "asset/doc/CV_Daniel_Varvara.docx",
+              "url": "asset/doc/New_CV_Daniel_Varvara.docx",
               "icon": "word",
               "text": "Click to download the Microsoft Word version"
             }
@@ -175,7 +222,7 @@
           },
           {
             "icon": "linkedin",
-            "url": "https://www.linkedin.com/in/daniel-varvara-b14752104/"
+            "url": "linkedin.com/in/danielvarvara"
           }
         ]
       }
