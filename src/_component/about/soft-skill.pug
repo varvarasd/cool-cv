@@ -1,9 +1,4 @@
 .soft-skill
   each card in content.card
-    .soft-skill-wrapper
-      if content.type === 'card'
-        .soft-skill-title
-          input(type="radio", name="soft-skill-list", id="soft-skill-close")
-          span #{card.title}
-        .soft-skill-description
-          span #{card.description}
+    .soft-skill-title
+      span #{card.title}

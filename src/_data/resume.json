@@ -56,8 +56,6 @@
             "JavaScript",
             "jQuery",
             "SASS",
-            "jQuery",
-            "Bootstrap",
             "Gulp",
             "Yeoman",
             "Github API"
@@ -68,8 +66,7 @@
           "list": [
             "Git",
             "JSON",
-            "NodeJS",
-            "Linux"
+            "NodeJS"
           ]
         }
       ]
@@ -82,7 +79,7 @@
           "date": "august 2016 - to present",
           "jobTitle": "junior web developer",
           "company": "bitbee ltd",
-          "responsibility": [
+          "responsability": [
             "developing and maintaining the front end functionality of simple websites",
             "writing well designed, testable, efficient code by using best web development practiceswriting well designed, testable, efficient code by using best web development practices",
             "building simple websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
@@ -92,7 +89,7 @@
           "date": "september 2015 - august 2016",
           "jobTitle": "lettings consultant",
           "company": "citiquays estate agents (poplar)",
-          "responsibility": [
+          "responsability": [
             "taking and arranging property viewings efficiently",
             "making sure all clients are referenced and checked in the filing process prior the contract",
             "negotiating and closing existing and new offers and contracts",
@@ -107,7 +104,7 @@
             "date": "april 2012 - september 2015",
             "jobTitle": "assistant manager",
             "company": "bella vita (broadway market)",
-            "responsibility": [
+            "responsability": [
               "staff management, training and recruiting",
               "creating the working rota efficiently to fit the business requirements financially and the client professionally",
               "stock keeping and daily ordering of goods",
@@ -133,43 +130,38 @@
           "type": "text",
           "title": "Daniel Varvara",
           "text": [
-            "I'm a conscientious and highly motivated individual to better myself everyday."
+            "A conscientious and enthusiastic individual with experience in various working fields, driven by a true interest in knowledge and motivated by high goals. I am currently seeking a new role as a Junior Web Developer. I’m an ambitious problem solver with a natural passion for coding, heart for art and science and I  would like to join a team of like-minded people in a supportive yet challenging environment. I am thorough and focused in everything I do with a keen interest in all web development technologies. I have a sharp eye for details and ready to go the extra mile."
           ]
         },
         {
           "type": "card",
           "title": "Soft skills",
           "card": [{
-              "title": "Empathy in communication",
-              "description": "I'm a very big fan of sciences and mostly psychology and neuroscience and not just because they hold amazing personal developing tools but also because i think they are crucial in an ever growing and interconnected society. I'm proud to say that it has made my working environment a place to enjoy with others which has brought me only benefits professionally and personally."
+              "title": "Empathy in communication"
+              },
+            {
+              "title": "Ability to work under pressure"
+              },
+            {
+              "title": "Team management"
             },
             {
-              "title": "Always keen to learn",
-              "description": "Describe learning"
+              "title": "Good time management"
             },
             {
-              "title": "Patience",
-              "description": "Describe patience"
+              "title": "Flexible and creative"
             },
             {
-              "title": "Time management",
-              "description": "Describe time management"
+              "title": "Motivated by high results"
             },
             {
-              "title": "Innitiative",
-              "description": "Describe innitiative"
+              "title": "Critical thinking"
             },
             {
-              "title": "Creativity",
-              "description": "Describe creativity"
+              "title": "Good interpersonal skills"
             },
             {
-              "title": "Flexibility",
-              "description": "describe flexibility"
-            },
-            {
-              "title": "Team player",
-              "description": "describe team playing"
+              "title": "Working well within a team as well as on my own"
             }
           ]
         },

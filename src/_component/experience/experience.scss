@@ -55,7 +55,7 @@ $class: 'experience';
 
 .#{$class}-list-date,
 .#{$class}-list-company,
-.#{$class}-responsibility-list-item,
+.#{$class}-responsability-list-item,
 .#{$class}-list-summary {
   padding: 1.2rem;
 }
@@ -153,4 +153,14 @@ $class: 'experience';
 .#{$class}-list-radio:checked + .#{$class}-list-header + .#{$class}-list-body {
   max-height: 100rem;
   border: 0.1rem solid darken($color-gumbo, 10);
+}
+
+
+.#{$class}-list-header,
+.#{$class}-list-info {
+  text-transform: capitalize;
+}
+
+.#{$class}-responsability-list-item:first-letter {
+  text-transform: uppercase;
 }

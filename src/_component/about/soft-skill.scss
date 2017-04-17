@@ -5,9 +5,11 @@ $class: 'soft-skill';
 }
 
 .#{$class}-title {
-  padding: 1rem;
-}
-
-input:checked + .#{$class}-description {
-  color: red;
+  padding: 0.5rem;
+  &:nth-child(odd) {
+    background-color: lighten($color-periwinkle-gray, 15);
+  }
+  &:nth-child(even) {
+    background-color: lighten($color-periwinkle-gray, 9 )
+  }
 }
