@@ -54,7 +54,6 @@
             "HTML",
             "CSS",
             "JavaScript",
-            "jQuery",
             "SASS",
             "Gulp",
             "Yeoman",
@@ -76,17 +75,17 @@
       "content": [{
         "type": "list",
         "list": [{
-          "date": "august 2016 - to present",
+          "date": "october 2016 - to present",
           "jobTitle": "junior web developer",
           "company": "bitbee ltd",
           "responsability": [
-            "developing and maintaining the front end functionality of simple websites",
-            "writing well designed, testable, efficient code by using best web development practiceswriting well designed, testable, efficient code by using best web development practices",
-            "building simple websites from concept all the way to completion from the bottom up, fashioning everything from the home page to site layout and function"
+            "writing based on design, testable, efficient code by using best web development practices",
+            "building simple websites from mockup all the way to completion from the bottom up, fashioning everything from the home page to site layout and function using HTML and CSS",
+            "integrate based on designs and requirements tables, forms, dropdown menus, mega menus for small and large projects"
           ]
           },
           {
-          "date": "september 2015 - august 2016",
+          "date": "september 2015 - october 2016",
           "jobTitle": "lettings consultant",
           "company": "citiquays estate agents (poplar)",
           "responsability": [
