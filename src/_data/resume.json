@@ -9,7 +9,7 @@
   "section": {
     "client": {
       "title":  "recent client",
-      "content": "/asset/image/client/bitbee.png"
+      "content": "asset/image/client/bitbee.png"
     },
     "menu": {
       "action": {
@@ -56,8 +56,7 @@
             "JavaScript",
             "SASS",
             "Gulp",
-            "Yeoman",
-            "Github API"
+            "Github"
           ]},
           {
           "type": "list",

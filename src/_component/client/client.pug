@@ -3,5 +3,6 @@
   .client-section-title ##{section.client.title}
   .client-wrapper
     ul.client-list
+      if section.client.content
         li.client-item
           img.client-image(src=section.client.content, alt="Bitbee Ltd Image")
