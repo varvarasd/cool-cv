@@ -9,7 +9,7 @@
   "section": {
     "client": {
       "title":  "recent client",
-      "content": "bitbee.png"
+      "content": "asset/image/bitbee.png"
     },
     "menu": {
       "action": {
@@ -80,7 +80,7 @@
           "company": "bitbee ltd",
           "responsability": [
             "writing based on design, testable, efficient code by using best web development practices",
-            "building simple websites from mockup all the way to completion from the bottom up, fashioning everything from the home page to site layout and function using HTML and CSS",
+            "building simple websites from pdf and psd all the way to completion from the bottom up, fashioning everything from the home page to site layout and function using HTML and CSS",
             "integrate based on designs and requirements tables, forms, dropdown menus, mega menus for small and large projects"
           ]
           },
@@ -129,7 +129,7 @@
           "type": "text",
           "title": "Daniel Varvara",
           "text": [
-            "A conscientious and enthusiastic individual with experience in various working fields, driven by a true interest in knowledge and motivated by high goals. I am currently seeking a new role as a Junior Web Developer. I’m an ambitious problem solver with a natural passion for coding, heart for art and science and I  would like to join a team of like-minded people in a supportive yet challenging environment. I am thorough and focused in everything I do with a keen interest in all web development technologies. I have a sharp eye for details and ready to go the extra mile."
+            "I’m an ambitious problem solver with a natural passion for coding, heart for art and science. I am thorough and focused in everything I do with a keen interest in all web development technologies. I have a sharp eye for details and ready to go the extra mile."
           ]
         },
         {
@@ -208,12 +208,8 @@
             "url": "https://github.com/varvarasd"
           },
           {
-            "icon": "skype",
-            "url": "skype:varvara_sd?call"
-          },
-          {
             "icon": "linkedin",
-            "url": "linkedin.com/in/danielvarvara"
+            "url": "https://www.linkedin.com/in/danielvarvara"
           }
         ]
       }
