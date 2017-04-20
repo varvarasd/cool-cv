@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "my-resume",
-    "lastOpened": 1490043496427,
-    "created": 1490043494279
+    "lastOpened": 1489680404569,
+    "created": 1489680335687
   },
   "iconSets": [
     {
@@ -13631,8 +13631,7 @@
           "defaultCode": 62176,
           "grid": 14
         }
-      ],
-      "invisible": false
+      ]
     },
     {
       "selection": [
@@ -13640,7 +13639,7 @@
           "ligatures": "home, house",
           "name": "home",
           "id": 0,
-          "order": 24,
+          "order": 26,
           "prevSize": 32,
           "code": 59648,
           "tempChar": ""
@@ -14069,13 +14068,19 @@
           "ligatures": "location, map-marker",
           "name": "location",
           "id": 71,
-          "order": 0
+          "order": 0,
+          "prevSize": 32,
+          "code": 59719,
+          "tempChar": ""
         },
         {
           "ligatures": "location2, map-marker2",
           "name": "location2",
           "id": 72,
-          "order": 0
+          "order": 0,
+          "prevSize": 32,
+          "code": 59720,
+          "tempChar": ""
         },
         {
           "ligatures": "compass, direction",
@@ -14099,7 +14104,7 @@
           "ligatures": "map2, guide2",
           "name": "map2",
           "id": 76,
-          "order": 19,
+          "order": 24,
           "prevSize": 32,
           "code": 59724,
           "tempChar": ""
@@ -14144,7 +14149,7 @@
           "ligatures": "calendar, date",
           "name": "calendar",
           "id": 83,
-          "order": 21,
+          "order": 25,
           "prevSize": 32,
           "code": 59731,
           "tempChar": ""
@@ -14549,7 +14554,7 @@
           "ligatures": "hammer, tool2",
           "name": "hammer",
           "id": 150,
-          "order": 27,
+          "order": 29,
           "prevSize": 32,
           "code": 59798,
           "tempChar": ""
@@ -14699,7 +14704,7 @@
           "ligatures": "briefcase, portfolio",
           "name": "briefcase",
           "id": 174,
-          "order": 28,
+          "order": 30,
           "prevSize": 32,
           "code": 59822,
           "tempChar": ""
@@ -14708,7 +14713,7 @@
           "ligatures": "airplane, travel",
           "name": "airplane",
           "id": 175,
-          "order": 30,
+          "order": 28,
           "prevSize": 32,
           "code": 59823,
           "tempChar": ""
@@ -14807,7 +14812,7 @@
           "ligatures": "menu3, options3",
           "name": "menu3",
           "id": 191,
-          "order": 23,
+          "order": 18,
           "prevSize": 32,
           "code": 59839,
           "tempChar": ""
@@ -14876,7 +14881,7 @@
           "ligatures": "earth, globe2",
           "name": "earth",
           "id": 202,
-          "order": 29,
+          "order": 31,
           "prevSize": 32,
           "code": 59850,
           "tempChar": ""
@@ -15173,7 +15178,7 @@
           "ligatures": "wondering, emoticon29",
           "name": "wondering",
           "id": 251,
-          "order": 25,
+          "order": 27,
           "prevSize": 32,
           "code": 59899,
           "tempChar": ""
@@ -15266,7 +15271,10 @@
           "ligatures": "plus, add",
           "name": "plus",
           "id": 266,
-          "order": 0
+          "order": 19,
+          "prevSize": 32,
+          "code": 59914,
+          "tempChar": ""
         },
         {
           "ligatures": "minus, subtract",
@@ -15278,10 +15286,10 @@
           "ligatures": "info, information",
           "name": "info",
           "id": 268,
-          "order": 22,
+          "order": 21,
           "prevSize": 32,
           "code": 59916,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "cancel-circle, close",
@@ -16052,7 +16060,7 @@
           "order": 13,
           "prevSize": 32,
           "code": 60044,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "google-plus3, brand7",
@@ -16085,7 +16093,7 @@
           "order": 12,
           "prevSize": 32,
           "code": 60049,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "instagram, brand12",
@@ -16118,7 +16126,7 @@
           "order": 8,
           "prevSize": 32,
           "code": 60054,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "vine",
@@ -16163,7 +16171,7 @@
           "order": 9,
           "prevSize": 32,
           "code": 60061,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "youtube2, brand22",
@@ -16280,7 +16288,7 @@
           "order": 16,
           "prevSize": 32,
           "code": 60080,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "name": "npm",
@@ -16409,7 +16417,7 @@
           "order": 15,
           "prevSize": 32,
           "code": 60101,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "reddit, brand61",
@@ -16436,7 +16444,7 @@
           "order": 11,
           "prevSize": 32,
           "code": 60105,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "linkedin2, brand65",
@@ -16586,7 +16594,10 @@
           "ligatures": "file-word, file12",
           "name": "file-word",
           "id": 481,
-          "order": 0
+          "order": 17,
+          "prevSize": 32,
+          "code": 60129,
+          "tempChar": ""
         },
         {
           "ligatures": "file-excel, file13",
@@ -16607,7 +16618,7 @@
           "order": 14,
           "prevSize": 32,
           "code": 60132,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "ligatures": "html-five2, w3c2",
@@ -25119,6 +25130,7 @@
       ]
     }
   ],
+  "uid": -1,
   "preferences": {
     "showGlyphs": true,
     "showCodes": true,
@@ -25155,6 +25167,5 @@
       "bgColor": 16777215
     },
     "historySize": 100
-  },
-  "uid": -1
+  }
 }
