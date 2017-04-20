@@ -10,7 +10,7 @@ $class: 'client';
 
 .#{$class}-image {
   max-width: 100%;
-  min-height: 5rem;
+  height: 10rem;
 }
 
 .#{$class}-list {
@@ -19,7 +19,7 @@ $class: 'client';
   align-items: center;
 }
 .#{$class}-item {
-  width: 15rem;
-  height: 15rem;
+  min-height: 5rem;
   display: flex;
+  justify-content: center;
 }
