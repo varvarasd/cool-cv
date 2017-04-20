@@ -9,7 +9,7 @@
   "section": {
     "client": {
       "title":  "recent client",
-      "content": "asset/image/client/bitbee.png"
+      "content": "/asset/image/client/bitbee.png"
     },
     "menu": {
       "action": {
