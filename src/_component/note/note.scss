@@ -81,7 +81,8 @@ input[type="checkbox"] {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: radial-gradient(ellipse, $color-manatee, $color-fiord);
+    background-color: $color-fiord;
+    //background-image: radial-gradient(ellipse, $color-periwinkle-gray, $color-fiord);
     color: $color-white;
   }
 }

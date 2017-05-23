@@ -5,6 +5,7 @@ $class: 'about';
 
 .#{$class} {
   @extend %section-container;
+  background-color: lighten($color-tulip, 40);
 }
 
 %avatar-common {
@@ -15,20 +16,22 @@ $class: 'about';
 
 .#{$class}-section-title {
   @extend %section-title;
+  color: $color-fiord;
 }
 
 .#{$class}-link {
-  border: 0.1rem solid $color-lily;
-  color: $color-gumbo;
+  border: 0.1rem solid black;
+  color: black;
   padding: 1rem;
-  width: 80%;
-  margin: 1rem auto;
+  width: 100%;
+  margin: 0.2rem auto;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
   font-size: 3rem;
   border-radius: 0.3rem;
   text-decoration: none;
+  background-color: $color-tulip;
 }
 
 .#{$class}-link-list {
@@ -48,20 +51,24 @@ $class: 'about';
   // stretch as much as parent container
   width: 100%;
   border: 0.5rem solid $color-white;
+
+}
+.#{$class}-avatar,
+.#{$class}-avatar-wrapper {
+  border-radius: 50%;
 }
 
 .#{$class}-avatar-wrapper {
   // apply %avatar-common rules
   @extend %avatar-common;
-  max-width: 50%;
+  max-width: 25%;
   // combine max-width with margin: auto to position it to center
   // (just like text-align: center)
   margin: 1rem auto;
-  border: 0.5rem solid $color-gumbo;
+  border: 0.5rem solid $color-fiord;
 }
 
 .#{$class}-title {
-  color: $color-gumbo;
   font-size: 2.5rem;
   text-align: center;
   padding: 2rem 0 1rem;

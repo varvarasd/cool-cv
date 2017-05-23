@@ -118,7 +118,7 @@
       }]
     },
     "about": {
-      "title": "about me",
+      "title": "About",
       "content": [
         {
           "type": "avatar",
@@ -165,7 +165,7 @@
         },
         {
           "type": "link",
-          "title": "grab the cool stuff",
+          "title": "Grab the cool stuff",
           "link": [
             {
               "url": "https://github.com/varvarasd",
