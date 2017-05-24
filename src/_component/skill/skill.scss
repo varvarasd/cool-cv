@@ -8,25 +8,48 @@ $class: 'skill';
   @extend %section-title;
 }
 
+
+.#{$class}-item,
+.#{$class}-wrapper {
+  border: 0.05rem solid darken($color-drover, 60);
+}
+
 .#{$class}-title {
-  font-size: 3rem;
-  text-align: center;
-  color: $color-fiord;
+  font-size: 1.5rem;
+  //text-align: center;
+  color: darken($color-drover, 75);
   padding: 1rem;
+  margin: 1rem auto;
   text-transform: capitalize;
+  background-color: lighten($color-serria, 30);
+  border-radius: 0.2rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 35%;
 }
 
 .#{$class}-list {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
+  &:last-of-type {
+    margin: 1rem;
+  }
 }
 
+
 .#{$class}-item {
-  border: 0.1rem solid $color-periwinkle-gray;
+  background-color: darken($color-drover, 35);
   padding: 0.8rem 1.2rem;
   border-radius: 0.2rem;
   margin-right: 0.2rem;
   margin-bottom: 0.2rem;
   font-size: 1.4rem;
+  width: 30%;
+}
+
+.#{$class}-wrapper {
+  background-color: lighten($color-serria, 10);
 }

@@ -27,9 +27,13 @@ html, body {
   @extend %noselect;
 
   color: $color-fiord;
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  width: 100%vw;
+  border-bottom: 0.01rem solid darken($color-manatee, 15);
+  padding: 0.5rem;
 }
 %section-container {
-  padding: 5vw;
+  padding: 3vw;
+  background-color: lighten($color-manatee, 35);
 }

@@ -5,7 +5,6 @@ $class: 'about';
 
 .#{$class} {
   @extend %section-container;
-  background-color: lighten($color-tulip, 40);
 }
 
 %avatar-common {
@@ -32,6 +31,10 @@ $class: 'about';
   border-radius: 0.3rem;
   text-decoration: none;
   background-color: $color-tulip;
+  &:hover {
+    color: lighten($color-tulip, 15);
+    background-color: darken($color-tulip, 30);
+  }
 }
 
 .#{$class}-link-list {
@@ -50,7 +53,7 @@ $class: 'about';
   @extend %avatar-common;
   // stretch as much as parent container
   width: 100%;
-  border: 0.5rem solid $color-white;
+  border: 0.2rem solid lighten($color-manatee, 35);
 
 }
 .#{$class}-avatar,
@@ -65,7 +68,7 @@ $class: 'about';
   // combine max-width with margin: auto to position it to center
   // (just like text-align: center)
   margin: 1rem auto;
-  border: 0.5rem solid $color-fiord;
+  border: 0.4rem solid $color-fiord;
 }
 
 .#{$class}-title {

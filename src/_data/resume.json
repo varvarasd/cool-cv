@@ -8,7 +8,7 @@
   },
   "section": {
     "client": {
-      "title":  "recent client",
+      "title":  "Recent client",
       "content": "asset/image/client/bitbee.png"
     },
     "menu": {
@@ -46,7 +46,7 @@
       ]
     },
     "skill": {
-      "title": "my skills",
+      "title": "My skills",
       "content": [{
           "type": "list",
           "title": "front end",
@@ -55,6 +55,7 @@
             "CSS",
             "JavaScript",
             "SASS",
+            "Pug/Jade",
             "Gulp",
             "Github"
           ]},

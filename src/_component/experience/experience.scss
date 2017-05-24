@@ -13,18 +13,21 @@ $class: 'experience';
   display: block;
   font-size: 1.5rem;
   padding: 1.5rem;
-  background-color: $color-lily;
-  color: $color-white;
+  background-color: $color-fiord;
+  color: lighten($color-celery, 35);
   cursor: pointer;
-  border-bottom: 0.1rem solid darken($color-lily, 10);
+  border-bottom: 0.1rem solid lighten($color-celery, 35);
   &:last-of-type {
     border-bottom: none;
   }
   .resume-icon-plus {
     float: right;
   }
+  &:hover {
+    color: $color-tulip;
+    background-color: lighten($color-fiord, 5);
+  }
 }
-
 
 
 .#{$class}-list-body {

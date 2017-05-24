@@ -8,7 +8,6 @@ $class: 'menu';
   // transparent the menu-call could be seen behind
   // the menu section
   position: relative;
-  background-color: $color-white;
 }
 
 .#{$class}-call {
@@ -35,6 +34,7 @@ $class: 'menu';
 .#{$class}-list {
   border: 0.1rem solid $color-gumbo;
   border-radius: 0.3rem;
+  background-color: $color-fiord;
 }
 
 .#{$class}-list-item {
@@ -42,13 +42,18 @@ $class: 'menu';
   &:last-child {
     border: none;
   }
+  &:hover {
+    background-color: darken($color-manatee, 25);
+    .#{$class}-list-link{
+      color: $color-tulip;}
+  }
 }
 
 .#{$class}-list-link {
   padding: 1rem;
   font-size: 2rem;
   display: block;
-  color: $color-manatee;
+  color: lighten($color-manatee, 35);;
 
   span[class^=resume-icon] {
     padding-right: 2rem;
